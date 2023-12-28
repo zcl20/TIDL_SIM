@@ -46,17 +46,17 @@ random.seed(1234)
 def main():
     # when python xx.py in console
     if len(sys.argv) == 1:
-        # with Pool(40) as p:
-        #     p.map(process_image,files)
-        for n1 in range(len(files)):
-            process_image(files[n1])
+        with Pool(40) as p:
+            p.map(process_image,files)
+        # for n1 in range(len(files)):
+        #     process_image(files[n1])
 
 
 # variance will change for every image
 def get_params():
     opt = argparse.Namespace()
     # system
-    opt.na = 1.4 + 0.2 * (np.random.rand() - 0.5)
+    opt.na = 1.3 + 0.2 * (np.random.rand() - 0.5)
     # parameter of camera noise_a=QE*AD noise_b=AD^2*sigma^2 refer to
     # "Practical Poissonian-Gaussian noise modeling and fitting for single-image raw-data"
     opt.noise_a = 5e-4 + 2e-4 * (np.random.rand() - 0.5)
