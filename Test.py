@@ -24,7 +24,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--config_path",
                         type=str,
-                        default="Model_output/out1/Fast_dl_sim_div2k.yaml",
+                        default="Model_output/out1/tidl_sim_div2k.yaml",
                         help="Path to test config file.")
     args = parser.parse_args()
     with open(args.config_path, "r") as f:

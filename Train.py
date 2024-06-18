@@ -11,7 +11,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--config_path",
                         type=str,
-                        default="Configs/Fast_dl_sim_div2k.yaml",
+                        default="Configs/tidl_sim_div2k.yaml",
                         help="Path to train config file.")
     args = parser.parse_args()
 

@@ -3,11 +3,11 @@
 ## Overview
 
 This repository contains an op-for-op PyTorch reimplementation
-of Fast_DL_SIM
+of TIDL_SIM
 
 ## Table of contents
 
-- [Fast_DL_SIM-PyTorch](#srgan-pytorch)
+- [TIDL_SIM-PyTorch](#srgan-pytorch)
     - [Overview](#overview)
     - [Table of contents](#table-of-contents)
     - [Download weights](#download-weights)
@@ -36,13 +36,13 @@ Both training and testing only need to modify yaml file.
 ### Test 
 
 ```shell
-python Test.py --config_path Model_output/out1/Fast_dl_div2k.yaml
+python Test.py --config_path Model_output/out1/tidl_sim_div2k.yaml
 ```
 
 ### Train 
 
 ```shell
-python  Train.py --config_path  Configs/Fast_dl_sim_div2k.yaml
+python  Train.py --config_path  Configs/tidl_sim_div2k.yaml
 ```
 
 ## Result
