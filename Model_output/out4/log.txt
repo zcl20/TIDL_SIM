@@ -1,0 +1,405 @@
+{'EXP_NAME': 'fast_dl_sim', 'SEED': 1234, 'MODEL': {'NAME': 'rcan', 'IN_CHANNELS': 3, 'OUT_CHANNELS': 1, 'NUM_ARCH': 0, 'NUM_RES_BLOCKS': 10, 'NUM_RES_GROUPS': 3, 'REDUCTION': 16, 'NUM_FEATS': 48}, 'TRAIN': {'NAME': 'fourier_sim', 'TASK': 'wide_raw_pattern', 'TRAIN_DATA_DIR': 'Train_data/DIV2K_train_HR_SIMdata_nr_square, Train_data/DIV2K_valid_HR_SIMdata_nr_square', 'NORM': 'minmax', 'NUM_TRAIN': 2400, 'IMAGE_SIZE': 512, 'SCALE': 1, 'EPOCHS': 100, 'SAVE_INTERVAL': 20, 'BATCH_SIZE': 4, 'NUM_WORKERS': 0, 'LOG': False, 'OUTPUT_DIR': 'Model_output/out4', 'WEIGHTS_DIR': '', 'LR': 0.0001, 'SCHEDULER': '20, 0.5', 'LOSSES': 'MSELoss'}, 'TEST': {'TEST_DATA_DIR': 'Test_data', 'NUM_TEST': 300, 'TEST_INTERVAL': 1, 'CPU': False, 'STATUE': False, 'BATCH_SIZE': 2, 'PLOT_INTERVAL': 20, 'NUM_PLOT': 3}} 
+
+
+ARGS: Train.py
+
+
+Epoch [1/100] done, mean loss: 0.004568, time spent: 326.3s, ETA: 32300.1s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 26.74 dB / 0.8521 
+
+
+Epoch [2/100] done, mean loss: 0.002583, time spent: 683.6s, ETA: 33494.1s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 27.16 dB / 0.8681 
+
+
+Epoch [3/100] done, mean loss: 0.002273, time spent: 1037.5s, ETA: 33544.6s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 27.83 dB / 0.8818 
+
+
+Epoch [4/100] done, mean loss: 0.002160, time spent: 1390.9s, ETA: 33382.7s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 26.66 dB / 0.8803 
+
+
+Epoch [5/100] done, mean loss: 0.002045, time spent: 1744.2s, ETA: 33140.0s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 27.32 dB / 0.8858 
+
+
+Epoch [6/100] done, mean loss: 0.001977, time spent: 2097.5s, ETA: 32860.4s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 28.23 dB / 0.8941 
+
+
+Epoch [7/100] done, mean loss: 0.001928, time spent: 2451.2s, ETA: 32565.9s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 27.90 dB / 0.8721 
+
+
+Epoch [8/100] done, mean loss: 0.001873, time spent: 2804.9s, ETA: 32255.9s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 28.35 dB / 0.8984 
+
+
+Epoch [9/100] done, mean loss: 0.001846, time spent: 3158.5s, ETA: 31935.9s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 28.25 dB / 0.8788 
+
+
+Epoch [10/100] done, mean loss: 0.001810, time spent: 3512.3s, ETA: 31610.4s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 28.20 dB / 0.8997 
+
+
+Epoch [11/100] done, mean loss: 0.001791, time spent: 3865.6s, ETA: 31276.4s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 28.60 dB / 0.8987 
+
+
+Epoch [12/100] done, mean loss: 0.001761, time spent: 4219.3s, ETA: 30941.4s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 28.42 dB / 0.8913 
+
+
+Epoch [13/100] done, mean loss: 0.001713, time spent: 4572.7s, ETA: 30601.9s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 28.23 dB / 0.8724 
+
+
+Epoch [14/100] done, mean loss: 0.001676, time spent: 4926.3s, ETA: 30261.3s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 28.85 dB / 0.9052 
+
+
+Epoch [15/100] done, mean loss: 0.001648, time spent: 5279.8s, ETA: 29918.9s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.08 dB / 0.9078 
+
+
+Epoch [16/100] done, mean loss: 0.001638, time spent: 5633.2s, ETA: 29574.0s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 28.42 dB / 0.9047 
+
+
+Epoch [17/100] done, mean loss: 0.001611, time spent: 5986.5s, ETA: 29228.1s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 28.45 dB / 0.9073 
+
+
+Epoch [18/100] done, mean loss: 0.001589, time spent: 6340.0s, ETA: 28882.2s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.19 dB / 0.9124 
+
+
+Epoch [19/100] done, mean loss: 0.001564, time spent: 6693.4s, ETA: 28534.9s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 28.91 dB / 0.9117 
+
+
+Epoch [20/100] done, mean loss: 0.001548, time spent: 7046.6s, ETA: 28186.2s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 28.62 dB / 0.9141 
+
+
+Epoch [21/100] done, mean loss: 0.001471, time spent: 7403.6s, ETA: 27851.5s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.45 dB / 0.9204 
+
+
+Epoch [22/100] done, mean loss: 0.001458, time spent: 7757.2s, ETA: 27503.0s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.27 dB / 0.9211 
+
+
+Epoch [23/100] done, mean loss: 0.001454, time spent: 8110.9s, ETA: 27154.0s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.36 dB / 0.9160 
+
+
+Epoch [24/100] done, mean loss: 0.001441, time spent: 8465.0s, ETA: 26806.0s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.26 dB / 0.9169 
+
+
+Epoch [25/100] done, mean loss: 0.001435, time spent: 8818.8s, ETA: 26456.4s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.52 dB / 0.9231 
+
+
+Epoch [26/100] done, mean loss: 0.001421, time spent: 9172.5s, ETA: 26106.2s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.33 dB / 0.9159 
+
+
+Epoch [27/100] done, mean loss: 0.001415, time spent: 9526.6s, ETA: 25757.0s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.46 dB / 0.9207 
+
+
+Epoch [28/100] done, mean loss: 0.001422, time spent: 9880.3s, ETA: 25406.4s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.63 dB / 0.9233 
+
+
+Epoch [29/100] done, mean loss: 0.001406, time spent: 10234.0s, ETA: 25055.7s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.67 dB / 0.9230 
+
+
+Epoch [30/100] done, mean loss: 0.001390, time spent: 10587.9s, ETA: 24705.0s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.46 dB / 0.9220 
+
+
+Epoch [31/100] done, mean loss: 0.001388, time spent: 10941.9s, ETA: 24354.5s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 28.98 dB / 0.9211 
+
+
+Epoch [32/100] done, mean loss: 0.001395, time spent: 11295.6s, ETA: 24003.1s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.58 dB / 0.9203 
+
+
+Epoch [33/100] done, mean loss: 0.001380, time spent: 11649.3s, ETA: 23651.6s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.66 dB / 0.9208 
+
+
+Epoch [34/100] done, mean loss: 0.001356, time spent: 12003.0s, ETA: 23300.0s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.62 dB / 0.9241 
+
+
+Epoch [35/100] done, mean loss: 0.001356, time spent: 12357.0s, ETA: 22948.6s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.31 dB / 0.9162 
+
+
+Epoch [36/100] done, mean loss: 0.001364, time spent: 12710.8s, ETA: 22597.0s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.82 dB / 0.9259 
+
+
+Epoch [37/100] done, mean loss: 0.001365, time spent: 13064.5s, ETA: 22245.0s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.77 dB / 0.9234 
+
+
+Epoch [38/100] done, mean loss: 0.001329, time spent: 13418.6s, ETA: 21893.5s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.63 dB / 0.9197 
+
+
+Epoch [39/100] done, mean loss: 0.001341, time spent: 13772.9s, ETA: 21542.2s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.17 dB / 0.9004 
+
+
+Epoch [40/100] done, mean loss: 0.001327, time spent: 14127.1s, ETA: 21190.6s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.81 dB / 0.9208 
+
+
+Epoch [41/100] done, mean loss: 0.001229, time spent: 14483.9s, ETA: 20842.6s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.79 dB / 0.9238 
+
+
+Epoch [42/100] done, mean loss: 0.001211, time spent: 14837.9s, ETA: 20490.4s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.19 dB / 0.9245 
+
+
+Epoch [43/100] done, mean loss: 0.001219, time spent: 15192.1s, ETA: 20138.3s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 29.74 dB / 0.9239 
+
+
+Epoch [44/100] done, mean loss: 0.001205, time spent: 15546.2s, ETA: 19786.1s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.06 dB / 0.9243 
+
+
+Epoch [45/100] done, mean loss: 0.001189, time spent: 15900.4s, ETA: 19433.8s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.05 dB / 0.9248 
+
+
+Epoch [46/100] done, mean loss: 0.001185, time spent: 16254.5s, ETA: 19081.3s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.34 dB / 0.9274 
+
+
+Epoch [47/100] done, mean loss: 0.001161, time spent: 16608.6s, ETA: 18728.8s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.11 dB / 0.9192 
+
+
+Epoch [48/100] done, mean loss: 0.001157, time spent: 16962.9s, ETA: 18376.4s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.22 dB / 0.9277 
+
+
+Epoch [49/100] done, mean loss: 0.001147, time spent: 17317.0s, ETA: 18023.8s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.55 dB / 0.9274 
+
+
+Epoch [50/100] done, mean loss: 0.001141, time spent: 17671.2s, ETA: 17671.2s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.41 dB / 0.9251 
+
+
+Epoch [51/100] done, mean loss: 0.001132, time spent: 18025.3s, ETA: 17318.4s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.51 dB / 0.9279 
+
+
+Epoch [52/100] done, mean loss: 0.001133, time spent: 18379.6s, ETA: 16965.8s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.40 dB / 0.9262 
+
+
+Epoch [53/100] done, mean loss: 0.001126, time spent: 18733.8s, ETA: 16613.0s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.20 dB / 0.9253 
+
+
+Epoch [54/100] done, mean loss: 0.001108, time spent: 19087.9s, ETA: 16260.0s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.54 dB / 0.9287 
+
+
+Epoch [55/100] done, mean loss: 0.001099, time spent: 19442.2s, ETA: 15907.3s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.56 dB / 0.9274 
+
+
+Epoch [56/100] done, mean loss: 0.001098, time spent: 19796.7s, ETA: 15554.6s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.06 dB / 0.9264 
+
+
+Epoch [57/100] done, mean loss: 0.001077, time spent: 20151.3s, ETA: 15201.9s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.56 dB / 0.9284 
+
+
+Epoch [58/100] done, mean loss: 0.001081, time spent: 20505.4s, ETA: 14848.8s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.41 dB / 0.9283 
+
+
+Epoch [59/100] done, mean loss: 0.001069, time spent: 20859.2s, ETA: 14495.4s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.45 dB / 0.9273 
+
+
+Epoch [60/100] done, mean loss: 0.001061, time spent: 21213.3s, ETA: 14142.2s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.58 dB / 0.9288 
+
+
+Epoch [61/100] done, mean loss: 0.001010, time spent: 21570.4s, ETA: 13790.9s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.41 dB / 0.9295 
+
+
+Epoch [62/100] done, mean loss: 0.001003, time spent: 21924.1s, ETA: 13437.4s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.74 dB / 0.9300 
+
+
+Epoch [63/100] done, mean loss: 0.001000, time spent: 22278.2s, ETA: 13084.0s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.81 dB / 0.9285 
+
+
+Epoch [64/100] done, mean loss: 0.001012, time spent: 22632.4s, ETA: 12730.7s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.84 dB / 0.9293 
+
+
+Epoch [65/100] done, mean loss: 0.000987, time spent: 22986.4s, ETA: 12377.3s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.83 dB / 0.9302 
+
+
+Epoch [66/100] done, mean loss: 0.000977, time spent: 23341.0s, ETA: 12024.1s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.55 dB / 0.9297 
+
+
+Epoch [67/100] done, mean loss: 0.000979, time spent: 23695.6s, ETA: 11671.0s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.02 dB / 0.9303 
+
+
+Epoch [68/100] done, mean loss: 0.000966, time spent: 24050.0s, ETA: 11317.6s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.93 dB / 0.9302 
+
+
+Epoch [69/100] done, mean loss: 0.000964, time spent: 24404.4s, ETA: 10964.3s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.04 dB / 0.9304 
+
+
+Epoch [70/100] done, mean loss: 0.000956, time spent: 24759.5s, ETA: 10611.2s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.82 dB / 0.9299 
+
+
+Epoch [71/100] done, mean loss: 0.000968, time spent: 25114.0s, ETA: 10257.8s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.29 dB / 0.9269 
+
+
+Epoch [72/100] done, mean loss: 0.000977, time spent: 25469.3s, ETA: 9904.7s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.01 dB / 0.9303 
+
+
+Epoch [73/100] done, mean loss: 0.000941, time spent: 25823.9s, ETA: 9551.3s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.00 dB / 0.9298 
+
+
+Epoch [74/100] done, mean loss: 0.000939, time spent: 26178.5s, ETA: 9197.8s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.83 dB / 0.9291 
+
+
+Epoch [75/100] done, mean loss: 0.000954, time spent: 26533.3s, ETA: 8844.4s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.78 dB / 0.9286 
+
+
+Epoch [76/100] done, mean loss: 0.000923, time spent: 26887.8s, ETA: 8490.9s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.83 dB / 0.9288 
+
+
+Epoch [77/100] done, mean loss: 0.000931, time spent: 27242.1s, ETA: 8137.2s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.57 dB / 0.9291 
+
+
+Epoch [78/100] done, mean loss: 0.000920, time spent: 27596.2s, ETA: 7783.5s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.00 dB / 0.9303 
+
+
+Epoch [79/100] done, mean loss: 0.000918, time spent: 27950.9s, ETA: 7430.0s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.79 dB / 0.9295 
+
+
+Epoch [80/100] done, mean loss: 0.000914, time spent: 28305.5s, ETA: 7076.4s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.10 dB / 0.9305 
+
+
+Epoch [81/100] done, mean loss: 0.000883, time spent: 28662.8s, ETA: 6723.4s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.24 dB / 0.9307 
+
+
+Epoch [82/100] done, mean loss: 0.000874, time spent: 29016.4s, ETA: 6369.5s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.26 dB / 0.9311 
+
+
+Epoch [83/100] done, mean loss: 0.000874, time spent: 29370.6s, ETA: 6015.7s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.15 dB / 0.9306 
+
+
+Epoch [84/100] done, mean loss: 0.000870, time spent: 29725.3s, ETA: 5662.0s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.21 dB / 0.9302 
+
+
+Epoch [85/100] done, mean loss: 0.000870, time spent: 30079.7s, ETA: 5308.2s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.27 dB / 0.9307 
+
+
+Epoch [86/100] done, mean loss: 0.000874, time spent: 30434.1s, ETA: 4954.4s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.29 dB / 0.9310 
+
+
+Epoch [87/100] done, mean loss: 0.000860, time spent: 30789.1s, ETA: 4600.7s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.23 dB / 0.9307 
+
+
+Epoch [88/100] done, mean loss: 0.000861, time spent: 31143.3s, ETA: 4246.8s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.33 dB / 0.9311 
+
+
+Epoch [89/100] done, mean loss: 0.000859, time spent: 31497.2s, ETA: 3892.9s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.28 dB / 0.9306 
+
+
+Epoch [90/100] done, mean loss: 0.000855, time spent: 31851.6s, ETA: 3539.1s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.32 dB / 0.9310 
+
+
+Epoch [91/100] done, mean loss: 0.000856, time spent: 32205.7s, ETA: 3185.2s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.37 dB / 0.9312 
+
+
+Epoch [92/100] done, mean loss: 0.000853, time spent: 32560.2s, ETA: 2831.3s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.29 dB / 0.9312 
+
+
+Epoch [93/100] done, mean loss: 0.000847, time spent: 32914.5s, ETA: 2477.4s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.26 dB / 0.9307 
+
+
+Epoch [94/100] done, mean loss: 0.000842, time spent: 33269.0s, ETA: 2123.6s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.38 dB / 0.9314 
+
+
+Epoch [95/100] done, mean loss: 0.000847, time spent: 33622.8s, ETA: 1769.6s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.37 dB / 0.9315 
+
+
+Epoch [96/100] done, mean loss: 0.000839, time spent: 33977.1s, ETA: 1415.7s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.36 dB / 0.9310 
+
+
+Epoch [97/100] done, mean loss: 0.000838, time spent: 34331.4s, ETA: 1061.8s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.30 dB / 0.9310 
+
+
+Epoch [98/100] done, mean loss: 0.000841, time spent: 34685.5s, ETA: 707.9s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 30.94 dB / 0.9305 
+
+
+Epoch [99/100] done, mean loss: 0.000837, time spent: 35039.9s, ETA: 353.9s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.45 dB / 0.9319 
+
+
+Epoch [100/100] done, mean loss: 0.000834, time spent: 35394.3s, ETA: 0.0s
+Testing of 300 samples complete. bc: 23.47 dB / 0.7584, sr: 31.36 dB / 0.9310 
+
