@@ -24,13 +24,13 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--config_path",
                         type=str,
-                        default="Model_output/out1/tidl_sim_div2k.yaml",
+                        default="Model_output/out4/tidl_sim_div2k.yaml",
                         help="Path to test config file.")
     args = parser.parse_args()
     with open(args.config_path, "r") as f:
         config = yaml.full_load(f)
 
-    config['TEST']['TEST_DATA_DIR'] = 'Test_data/SIMdata_mydata'
+    config['TEST']['TEST_DATA_DIR'] = 'Test_data/SIM_simudatan_square'
     config['TEST']['NUM_TEST'] = 20
     config['TEST']['WEIGHTS'] = config['TRAIN']['OUTPUT_DIR'] + '/final.pth'
     config['TEST']['OUTPUT_DIR'] = config['TRAIN']['OUTPUT_DIR'] + '/test_results'

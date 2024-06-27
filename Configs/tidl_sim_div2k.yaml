@@ -17,19 +17,19 @@ MODEL:
 TRAIN:
   NAME: "fourier_sim"     # dataset to train
   TASK: "wide_raw_pattern"          # restoration task
-  TRAIN_DATA_DIR: "Train_data/SIMdata_DIV2K_hexagonal, Train_data/SIMdata_DIV2K_square, Train_data/SIMdata_DIV2K_line"
+  TRAIN_DATA_DIR: "Train_data/DIV2K_train_HR_SIMdata_nr_square, Train_data/DIV2K_valid_HR_SIMdata_nr_square"
   NORM: "minmax"                # if normalization should not be used
-  NUM_TRAIN: 5760           # number of samples to train on
+  NUM_TRAIN: 2400           # number of samples to train on
   IMAGE_SIZE: 512         # the image size
 
   # training hyperparameters
   SCALE: 1                  # low to high resolution scaling factor
   EPOCHS: 100               # number of epochs to train for
-  SAVE_INTERVAL: 5         # number of epochs between saves
+  SAVE_INTERVAL: 20         # number of epochs between saves
   BATCH_SIZE: 4             # input batch size
   NUM_WORKERS: 0            # number of data loading workers
   LOG: False
-  OUTPUT_DIR: "Model_output/out1"
+  OUTPUT_DIR: "Model_output/out4"
   WEIGHTS_DIR: ""         # model to retrain from
 
   LR: 0.0001                # learning rate
@@ -42,7 +42,7 @@ TEST:
   TEST_DATA_DIR: "Test_data"
 
   # Test hyperparameters
-  NUM_TEST: 1440              # number of images to test per epoch or test run
+  NUM_TEST: 300              # number of images to test per epoch or test run
   TEST_INTERVAL: 1          # number of epochs between tests during training
   CPU: False                # use of cpu
   STATUE: False
